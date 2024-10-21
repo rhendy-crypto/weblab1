@@ -6,5 +6,8 @@ NIM: 312410397
 # 1. bilanganterbesar.py
 Program pertama yang akan dibuat adalah program untuk menampilkan bilangan terbesar dari 3 Bilangan yang diinputkan
 Berikut flowchartnya
+
 ![WhatsApp Image 2024-10-22 at 00 04 08_d4292dac](https://github.com/user-attachments/assets/264436cb-3c6e-4622-abd2-d3e777da93cb)
 
+Program akan meminta kita untuk memasukkan 3 angka untuk dibandingkan:
+![image](https://github.com/user-attachments/assets/89513614-bedf-4a96-a179-56ecf048a9e7)
