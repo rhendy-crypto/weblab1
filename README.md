@@ -14,27 +14,21 @@ Berikut flowchartnya
 
 Penjelasan Code
 
-def mencari_bilangan_terbesar(a, b, c):
-    if a > b:
-        if a > c:
-            return a, "A adalah terbesar"
-        else:
-            return c, "C adalah terbesar"
-    else:
-        if b > c:
-            return b, "B adalah terbesar"
-        else:
-            return c, "C adalah terbesar"
+![WhatsApp Image 2024-10-22 at 01 22 55_6f632c0e](https://github.com/user-attachments/assets/ac47e83b-f4f9-4e87-9b28-4c08475b6b0e)
 
-# Input bilangan A, B, C
-print("Masukkan tiga bilangan:")
-a = float(input("A: "))
-b = float(input("B: "))
-c = float(input("C: "))
+1. Kita mendefinisikan function mencari_bilangan_terbesar yang mengambil tiga parameter (a,b,c).
+2. function tersebut menggunakan nested if-else statement untuk membandingkan angka yang diinputkan
+3. Kemudian akan menampilkan Mana bilangan terbesar
+4. Lalu di Program utamanya kita masukkan angka yang harus dimasukkan oleh user
+5. Lalu kita panggil function mencari_bilangan_terbesar
+6. Lalu output bilangan terbesar dari ketiga bagian yang diinput akan muncul
 
-# Menentukan bilangan terbesar
-largest, message = mencari_bilangan_terbesar(a, b, c)
+# 2. bilanganN.py
 
-# Menampilkan hasil
-print(f"\n{message}")
-print(f"Bilangan terbesar adalah: {largest}")
+Program kedua adalah untuk membandingkan bilangan yang diinput, input akan terus berjalan kecuali user memasukkannya nilai 0
+
+Flowchartnya
+
+![WhatsApp Image 2024-10-22 at 01 32 00_f9ff4758](https://github.com/user-attachments/assets/dddfb495-edc7-4645-9ebc-6140b22e2ec6)
+
+
