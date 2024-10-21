@@ -11,3 +11,30 @@ Berikut flowchartnya
 
 # Program akan meminta kita untuk memasukkan 3 angka untuk dibandingkan:
 ![image](https://github.com/user-attachments/assets/89513614-bedf-4a96-a179-56ecf048a9e7)
+
+Penjelasan Code
+
+def mencari_bilangan_terbesar(a, b, c):
+    if a > b:
+        if a > c:
+            return a, "A adalah terbesar"
+        else:
+            return c, "C adalah terbesar"
+    else:
+        if b > c:
+            return b, "B adalah terbesar"
+        else:
+            return c, "C adalah terbesar"
+
+# Input bilangan A, B, C
+print("Masukkan tiga bilangan:")
+a = float(input("A: "))
+b = float(input("B: "))
+c = float(input("C: "))
+
+# Menentukan bilangan terbesar
+largest, message = mencari_bilangan_terbesar(a, b, c)
+
+# Menampilkan hasil
+print(f"\n{message}")
+print(f"Bilangan terbesar adalah: {largest}")
