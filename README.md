@@ -31,4 +31,46 @@ Flowchartnya
 
 ![WhatsApp Image 2024-10-22 at 01 32 00_f9ff4758](https://github.com/user-attachments/assets/dddfb495-edc7-4645-9ebc-6140b22e2ec6)
 
+Program akan meminta kita untuk memasukkan angka untuk dibandingkan, input akan terus dimimta sebelum user memasukkan angka 0:
 
+![image](https://github.com/user-attachments/assets/f002fe47-d50b-4776-a88f-b936e0a1f3ed)
+
+Penjelasan Code
+def find_largest_number():
+Mendefinisikan fungsi bernama find_largest_number akan menangani logika utama program.
+largest = float ("-inf")
+Menginisialisasi variabel largest dengan nilai negatif tak terhingga. ini memastikan bahwa angka pertama yang dimasukkan akan selalu lebih besar.
+*Maksud dari-infinity(Negatif tak hingga)
+count = 0
+Menganalisasi variabel count untuk menghitung jumlah bilangan yang dimasukkan.
+while True:
+Memulai loop tak terbatas. Akan terus berjalan sampai dihentikan oleh break.
+num = float(input(f"
+Meminta input dari pengguna, mengkonversinnya ke float, dan menyimpannya dalam variabel num.
+if num == 0
+           break
+Jika input adalah 0, keluar dari loop.
+count += 1
+Menambanh penghitung jumlah bilangan yang dimasukkan
+if num > largest:
+            largest = num
+Jika bilangan baru dimasukkan lebih besar dari largest saat ini, update largest.
+return largest, count
+Setelah loop selesai, kembalikan bilangan terbesar dari jumlah input.
+
+print("Program untuk menentukan bilangan terbesar dari N bilangan")
+print("Masukkan angka 0 untuk mengakhiri input\n")
+
+Mencetak instruksi pengguna.
+largest, count = find_largest
+Memanggil fungsi find_largest_number() dan menyimpan hasilnya.
+if count > 0:
+Memeriksa apakah ada bilangan yang dimasukkan.
+
+ print(f"\nJumlah Bilangan yang dimasukkan: count ")
+    print(f"Bilangan terbesar adalah:largest ")
+Jika ada bilangan yang dimasukkan, cetak jumlah input dan bilangan terbesar.
+
+else:
+    print("\nTidak ada bilanngan yang dimasukkan.")
+Jika tidak ada bilangan yang dimasukkan (pengguna langsung memasukkan 0), program akan dijalankan dan menampilkan output bilangan.    
